@@ -1,0 +1,8 @@
+**/controllers/
+**/models/
+**/media/
+**/node_modules/
+**/routes/
+dbsync.js
+index.js
+package.json
