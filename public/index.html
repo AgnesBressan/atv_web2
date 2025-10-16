@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - PetCare</title>
+    <link rel="stylesheet" href="/public/css/cliente.css"> 
+    
+    <style>
+        .main-menu {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 30px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .main-menu a {
+            display: block;
+            padding: 15px 20px;
+            background-color: #007bff; /* Cor azul primária */
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+        .main-menu a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header style="text-align: center; padding: 40px 0;">
+            <h1>Bem-vindo(a) ao PetCare</h1>
+            <p>Selecione a opção de cadastro desejada.</p>
+        </header>
+
+        <div class="main-menu">
+            
+            <a href="/public/cliente.html">
+                Cadastrar Cliente
+            </a>
+            
+            <a href="/public/pet.html">
+                Cadastrar Pet
+            </a>
+        </div>
+    </div>
+</body>
+</html>
